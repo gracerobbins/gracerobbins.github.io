@@ -1,19 +1,21 @@
-header, #education, #related-experience, #favorites, footer{
+header, #education, #cs-experience, #favorites, #activities, footer{
 color: black;
-font: 13px/20px "Arial";
-margin-left: 19%;
+font: 13px/20px "Helvetica";
+margin-left: 10%;
+margin-right:10%;
 margin-top: 40px;
 }
 
 header {
+font-weight:bold;
 font-size: 40px;
 text-align: center;
-margin-left: 0%;
 margin-top: 50px;
 }
 
 h2 {
-font-size: 20px;
+font-size: 30px;
+color: #0073e6;
 }
 
 h3 {
@@ -25,7 +27,18 @@ font-size: 16px;
 margin-left: 50px;
 }
 
+li {
+margin-top: 5px;
+margin-left: 5px;
+color: #555555;
+}
+
 footer {
 font-size: 16px;
 margin-bottom: 50px;
+}
+
+#contact {
+font-size: 16px;
+font-weight:normal;
 }
